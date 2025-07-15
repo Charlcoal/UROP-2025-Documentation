@@ -15,3 +15,21 @@
 | I    | 4 layer, 6 turns/layer, 0.15mm W  | 1.0           | 3.4                | 0.17                | 0.098           | 4.08              |                         0.195  |
 | J    | 4 layer, 5 turns/layer, 0.23mm W  | 1.0           | 1.7                | 0.21                | 0.075           | 4.20              |                         0.149  |
 | K    | 4 layer, 4 turns/layer, 0.30mm W  | 1.0           | 1.0                | 0.25                | 0.063           | 4.00              |                         0.124  |
+
+### Holding Amperage
+
+The tests were performed by dropping an axial N52 magnet down an aluminum tube,
+which was positioned in the center of the pcb coil being tested. The eddy currents
+in the aluminum tube would slow the magnet's descent to a consistent (slow) speed.
+This was repeated with increasing current through the coil, until the magnet did
+not drop completely through the tube. Then current was then recorded.
+
+### Resistance
+
+A standard multimeter was used to find the coil resistance, with compensation for
+contact resistance.
+
+### Other Values
+
+All other values have been calculated from the measured values and descriptions
+of the coils.
