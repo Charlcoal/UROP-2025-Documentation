@@ -11,4 +11,4 @@ the inner hole to allow for more support around the magnet, which
 pushes up the outer diameter to 0.22".
 
 I am also getting around to starting this log, which means this
-marks the first non-backfilled log in this repository.
+marks the first non-backfilled entry in this repository.
