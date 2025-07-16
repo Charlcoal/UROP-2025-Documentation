@@ -44,17 +44,17 @@ I am using a point model since the coil length and magnet length
 are the same, simlpifying the dynamics of dipoles to monopoles.
 The offset accounts for the concentricity of the magnet and coil.
 
-Using some trigonometry, this model predics the force to be
+Using some trigonometry, this model predicts the force to be
 $$\frac{ax}{(D^2 + x^2)^{3/2}}$$, where $$a$$ is a constant
 describing the intensity of the force overall at 0.2 A,
 and $$x$$ is the distance between the magnet center and coil
 center, and $$D$$ is the above mentioned perpendicular distance.
 
-I put the data from the table into [desmos](www.desmos.com/calculator)
+I put the data from the table into [desmos](https://www.desmos.com/calculator/2qaqsglqw1)
 and tried a regression fit onto the equation above.
-It did not quite work as expected, as the force measurments
+It did not quite work as expected, as the force measurements
 get close to 0 too quickly near the edges. This discrepancy made
-me realized my measurment method probably was effected by static friction,
+me realized my measurement method probably was effected by static friction,
 as the magnet did not move while applying force. To counteract this, I added
 a correction term $$c$$ to the model, which matched the sign of $x$. This
 resulted in a great fit: $$R^2 = 0.989$$. The parameters for the fit
@@ -63,6 +63,6 @@ and $$c = 3.90$$ milliNewtons.
 
 When combining 4 of these equation spaced
 according to the distance between coils, there are 4 distinct notches in the
-total acheivable force in the center of each coil. They do not dip below
+total achievable force in the center of each coil. They do not dip below
 7 milliNewtons however (from adjacent coils), so with brief 0.8 Amp spikes
 in current it should perform fine.

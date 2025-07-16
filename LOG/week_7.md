@@ -18,9 +18,9 @@ marks the first non-backfilled entry in this repository.
 Today I am testing the strength of interaction between the magnet
 and the 300 turn coils at various distances within the pin sleeve.
 The data and analysis from this can be found under [coil_mag_interaction_distance.md](../RESEARCH/coil_mag_interaction_distance.md).
-The main takeaway is that the coil magnet interaction at 0.2A can
-be modeled as $$F(d) = \frac{2.5d}{(0.0625 + d^2)^{3/2}}$$, where $$d$$
-is the distance between the magnet center and coil center in inches,
+The main takeaway is that the coil magnet interaction at 0.2A is modeled as  
+$$F(d) = \frac{2.5d}{(0.255^2 + d^2)^{3/2}}$$  
+where $$d$$ is the distance between the magnet center and coil center in inches,
 and $$F(d)$$ is the resulting force in milliNetwons (gram equivalent).
 
 One interesting thing I noticed is that the coils are only slightly
