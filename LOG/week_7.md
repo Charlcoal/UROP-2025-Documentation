@@ -12,3 +12,23 @@ pushes up the outer diameter to 0.22".
 
 I am also getting around to starting this log, which means this
 marks the first non-backfilled entry in this repository.
+
+## 16 July 2025
+
+Today I am testing the strength of interaction between the magnet
+and the 300 turn coils at various distances within the pin sleeve.
+The data and analysis from this can be found under [coil_mag_interaction_distance.md](../RESEARCH/coil_mag_interaction_distance.md).
+The main takeaway is that the coil magnet interaction at 0.2A can
+be modeled as $$F(d) = \frac{2.5d}{(0.0625 + d^2)^{3/2}}$$, where $$d$$
+is the distance between the magnet center and coil center in inches,
+and $$F(d)$$ is the resulting force in milliNetwons (gram equivalent).
+
+One interesting thing I noticed is that the coils are only slightly
+warm to the touch when running continuously at 0.2A (0.26W). Given that
+the power scales quadratically with current, resistivity increases
+with temperature, and the sleeve is currently made of PLA, I think
+it is unwise to surpass 0.6W (~0.3A) continuous power for the time
+being.
+
+Also, the pin insert I printed yesterday needs some small tweaks to
+fit properly. Hopefully I can iterate it more soon.
