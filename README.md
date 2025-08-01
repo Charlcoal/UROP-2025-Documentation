@@ -8,8 +8,6 @@ be able to sense force applied to the tops of the pins.
 
 ## Sections
 
-**LOG** contains a continuous log of the project, which is
-not condensed.  
 **PCB_COIL** contains initial research on the possibility of
 printing coils on circuit, which did not get far.  
 **RESEARCH** contains the relevant data and analysis
