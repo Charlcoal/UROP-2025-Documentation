@@ -18,10 +18,10 @@ void loop() {
   SPI.beginTransaction(SPISettings(5000000, MSBFIRST, SPI_MODE1));
   //digitalWrite(10, LOW);
   PORTD &= 0b11111011;
-  spiOutput1 = SPI.transfer16(0b0000000110000100);
+  spiOutput1 = SPI.transfer16(0b0000000110000010);
   PORTD |= 0b00000100;
 
-  delayMicroseconds(56);
+  delayMicroseconds(48);
 
   PORTD &= 0b11111011;
   spiOutput2 = SPI.transfer16(0b0000000110000110);
